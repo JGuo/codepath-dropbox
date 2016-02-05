@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F5516B61C632BE70047C3CE /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5516B51C632BE70047C3CE /* CreateAccountRootViewController.swift */; };
+		8F5516B81C6330EA0047C3CE /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5516B71C6330EA0047C3CE /* CreateAccountViewController.swift */; };
+		8F5516BA1C63393F0047C3CE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5516B91C63393F0047C3CE /* SettingsViewController.swift */; };
+		8F5516BC1C6457E50047C3CE /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5516BB1C6457E50047C3CE /* SignInRootViewController.swift */; };
+		8F5516BE1C645BD10047C3CE /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5516BD1C645BD10047C3CE /* ForgotViewController.swift */; };
 		8FBDC75D1C631CC5005D3AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDC75C1C631CC5005D3AC9 /* AppDelegate.swift */; };
 		8FBDC75F1C631CC5005D3AC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDC75E1C631CC5005D3AC9 /* ViewController.swift */; };
 		8FBDC7621C631CC5005D3AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDC7601C631CC5005D3AC9 /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F5516B51C632BE70047C3CE /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		8F5516B71C6330EA0047C3CE /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		8F5516B91C63393F0047C3CE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8F5516BB1C6457E50047C3CE /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		8F5516BD1C645BD10047C3CE /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
 		8FBDC7591C631CC5005D3AC9 /* dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBDC75C1C631CC5005D3AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FBDC75E1C631CC5005D3AC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +67,11 @@
 				8FBDC75C1C631CC5005D3AC9 /* AppDelegate.swift */,
 				8FBDC75E1C631CC5005D3AC9 /* ViewController.swift */,
 				8FBDC7601C631CC5005D3AC9 /* Main.storyboard */,
+				8F5516BD1C645BD10047C3CE /* ForgotViewController.swift */,
+				8F5516BB1C6457E50047C3CE /* SignInRootViewController.swift */,
+				8F5516B91C63393F0047C3CE /* SettingsViewController.swift */,
+				8F5516B71C6330EA0047C3CE /* CreateAccountViewController.swift */,
+				8F5516B51C632BE70047C3CE /* CreateAccountRootViewController.swift */,
 				8FBDC7631C631CC5005D3AC9 /* Assets.xcassets */,
 				8FBDC7651C631CC5005D3AC9 /* LaunchScreen.storyboard */,
 				8FBDC7681C631CC5005D3AC9 /* Info.plist */,
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F5516B81C6330EA0047C3CE /* CreateAccountViewController.swift in Sources */,
+				8F5516B61C632BE70047C3CE /* CreateAccountRootViewController.swift in Sources */,
+				8F5516BC1C6457E50047C3CE /* SignInRootViewController.swift in Sources */,
+				8F5516BE1C645BD10047C3CE /* ForgotViewController.swift in Sources */,
 				8FBDC75F1C631CC5005D3AC9 /* ViewController.swift in Sources */,
+				8F5516BA1C63393F0047C3CE /* SettingsViewController.swift in Sources */,
 				8FBDC75D1C631CC5005D3AC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +304,7 @@
 				8FBDC76D1C631CC5005D3AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
